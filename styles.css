@@ -4,15 +4,19 @@ html {
   font-size: 15px;
   display: flex;
   justify-content: center;
-  margin: 40px;
   background-color: hsl(0, 0%, 95%);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 section {
   display: inline-flex;
   justify-content: center;
+  align-items: center;
   border-radius: 30px;
   margin: 0;
+  height: 100vh;
 }
 
 div {
@@ -31,11 +35,13 @@ h1 {
   color: hsl(0, 0%, 95%);
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
+  height: 350px;
 }
 
 .suvs {
   background-color: hsl(184, 100%, 22%);
   color: hsl(0, 0%, 95%);
+  height: 350px;
 }
 
 .luxury {
@@ -43,6 +49,7 @@ h1 {
   color: hsl(0, 0%, 95%);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  height: 350px;
 }
 
 img {
